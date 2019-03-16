@@ -2,6 +2,7 @@
 CalculateMean.py
 
 Author: srkaeppler
+Email: skaeppl [at] clemson [dot] edu
 Date: 03/20/2018
 
 
@@ -10,6 +11,16 @@ handles that data processing.  I will reuse this class in plotting software or i
 I just want something consistent.
 
 10/30/2018 - including the plasma flow and average plasma flows
+
+03/15/2019
+This is the version of the code that is submitted as part of
+"Incoherent Scatter Radar Observations of Auroral E-region Thermospheric Winds: The Role of Plasma Forcing near Summer Solstice"
+This code is in ever way a research code that is presented "as is."
+You are strongly encouraged to contact me if you have any questions about what I did.
+
+The purpose of this code is to be an overarching class that parses the monthy ISR
+files and calculates the weight mean, mean, and median.  
+
 """
 
 import tables
